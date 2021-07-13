@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Random background
+feh --no-fehbg --bg-center $(find ~/Images/wallpapers | shuf -n 1)
