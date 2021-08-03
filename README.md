@@ -4,11 +4,11 @@ A lot of hand picked wallpapers together with a shell script that sets one of th
 Installation
 ---
 
-Clone this repository `git clone https://github.com/Bowuigi/wallpapers ~/Images/wallpapers`
+Clone this repository `git clone https://github.com/Bowuigi/wallpapers ~/wallpapers`
 
-Place `randwall` anywhere in your $PATH, I recommend /usr/local/bin with `sudo mv ~/Images/wallpapers/randwall /usr/local/bin/randwall`
+Copy (do not move) `randwall` to anywhere in your $PATH, I recommend /usr/local/bin with `sudo cp ~/wallpapers/randwall /usr/local/bin/randwall`
 
-Remove the `.git` directory and the README.md with `rm -rf ~/Images/wallpapers/randwall/.git ~/Images/wallpapers/randwall/README.md`, to upgrade, just repeat the process specified here.
+To get the latest wallpapers, run `git pull` from ~/Images/wallpapers
 
 Add this line before the `exec` in your .xinitrc or to your window manager's autostart
 
